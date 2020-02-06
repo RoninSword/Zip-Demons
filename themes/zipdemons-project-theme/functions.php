@@ -92,6 +92,32 @@ if ( ! function_exists( 'project_theme_setup' ) ) :
 
 
 		/**
+		 * Add support for custom color palette
+		 */
+		add_theme_support( 'editor-color-palette', array(
+			array(
+				'name' => esc_html__( 'strong magenta', 'sample-theme' ),
+				'slug' => 'strong-magenta',
+				'color' => '#a156b4',
+			),
+			array(
+				'name' => esc_html__( 'light grayish magenta', 'sample-theme' ),
+				'slug' => 'light-grayish-magenta',
+				'color' => '#d0a5db',
+			),
+			array(
+				'name' => esc_html__( 'very light gray', 'sample-theme' ),
+				'slug' => 'very-light-gray',
+				'color' => '#eee',
+			),
+			array(
+				'name' => esc_html__( 'very dark gray', 'sample-theme' ),
+				'slug' => 'very-dark-gray',
+				'color' => '#444',
+			)
+		) );
+
+		/**
 		 * add support for disabling custom colors
 		 */
 		add_theme_support( 'disable-custom-colors' );
