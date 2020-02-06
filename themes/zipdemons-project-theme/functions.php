@@ -144,6 +144,11 @@ add_theme_support(
 	'editor-font-sizes',
 	array(
 		array(
+			'name' => esc_html__( 'Large', 'project-theme' ),
+			'size' => 24,
+			'slug' => 'large'
+		),
+		array(
 			'name' => esc_html__( 'Regular', 'project-theme' ),
 			'size' => 16,
 			'slug' => 'regular'
