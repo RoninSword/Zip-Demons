@@ -89,6 +89,12 @@ if ( ! function_exists( 'project_theme_setup' ) ) :
 		 * Add support for full width
 		 */
 		add_theme_support( 'align-wide' );
+
+
+		/**
+		 * add support for disabling custom colors
+		 */
+		add_theme_support( 'disable-custom-colors' );
 	}
 endif;
 add_action( 'after_setup_theme', 'project_theme_setup' );
