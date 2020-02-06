@@ -96,22 +96,22 @@ if ( ! function_exists( 'project_theme_setup' ) ) :
 		 */
 		add_theme_support( 'editor-color-palette', array(
 			array(
-				'name' => esc_html__( 'strong magenta', 'sample-theme' ),
-				'slug' => 'strong-magenta',
-				'color' => '#a156b4',
+				'name' => esc_html__( 'light green', 'project-theme' ),
+				'slug' => 'light-green',
+				'color' => '##8EE4AF',
 			),
 			array(
-				'name' => esc_html__( 'light grayish magenta', 'sample-theme' ),
+				'name' => esc_html__( 'light grayish magenta', 'project-theme' ),
 				'slug' => 'light-grayish-magenta',
 				'color' => '#d0a5db',
 			),
 			array(
-				'name' => esc_html__( 'very light gray', 'sample-theme' ),
+				'name' => esc_html__( 'very light gray', 'project-theme' ),
 				'slug' => 'very-light-gray',
 				'color' => '#eee',
 			),
 			array(
-				'name' => esc_html__( 'very dark gray', 'sample-theme' ),
+				'name' => esc_html__( 'very dark gray', 'project-theme' ),
 				'slug' => 'very-dark-gray',
 				'color' => '#444',
 			)
