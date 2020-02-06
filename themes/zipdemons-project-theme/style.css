@@ -9,3 +9,10 @@ License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: project-theme
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+**/
+.has-light-green{
+	color: #8EE4AF
+}
+.has-light-green-background-color{
+	background-color: #8EE4AF;
+}
