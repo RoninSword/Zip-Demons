@@ -119,6 +119,11 @@ if ( ! function_exists( 'project_theme_setup' ) ) :
 				'name' => esc_html__( 'Off Green', 'project-theme' ),
 				'slug' => 'off-green',
 				'color' => '#379683',
+			),
+			array(
+				'name' => esc_html__( 'Black', 'project-theme' ),
+				'slug' => 'black',
+				'color' => '#000000',
 			)
 		) );
 

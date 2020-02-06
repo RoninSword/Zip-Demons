@@ -44,3 +44,10 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 .has-off-green-background-color{
 	background-color: #379683;
 }
+
+.has-black{
+	color: #000000;
+}
+.has-black-background-color{
+	background-color: #000000;
+}
