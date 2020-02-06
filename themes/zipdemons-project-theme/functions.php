@@ -136,6 +136,26 @@ if ( ! function_exists( 'project_theme_setup' ) ) :
 		 * add support for disabling custom colors
 		 */
 		add_theme_support( 'disable-custom-colors' );
+
+		/**
+ * Add support for font sizes
+ */
+add_theme_support(
+	'editor-font-sizes',
+	array(
+		array(
+			'name' => esc_html__( 'Regular', 'sample-theme' ),
+			'size' => 16,
+			'slug' => 'regular'
+		),
+	)
+);
+
+/**
+ * Add support for disabling custom font sizes
+ */
+add_theme_support( 'disable-custom-font-sizes' );
+
 	}
 endif;
 add_action( 'after_setup_theme', 'project_theme_setup' );
