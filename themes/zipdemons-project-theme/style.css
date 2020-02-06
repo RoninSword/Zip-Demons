@@ -27,7 +27,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 .has-regular-green{
 	color: #5CDB95;
 }
-.has-regular-green-backgrould-color{
+.has-regular-green-background-color{
 	background-color: #5CDB95;
 }
 
@@ -36,4 +36,11 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 }
 .has-brown-background-color{
 	background-color: #907163;
+}
+
+.has-off-green{
+	color: #379683;
+}
+.has-off-green-background-color{
+	background-color: #379683;
 }
