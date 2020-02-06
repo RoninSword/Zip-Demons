@@ -84,6 +84,11 @@ if ( ! function_exists( 'project_theme_setup' ) ) :
 		 * Add support for default core block styles
 		 */
 		add_theme_support( 'wp-block-styles' );
+
+		/**
+		 * Add support for full width
+		 */
+		add_theme_support( 'align-wide' );
 	}
 endif;
 add_action( 'after_setup_theme', 'project_theme_setup' );
