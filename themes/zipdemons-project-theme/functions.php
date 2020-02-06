@@ -96,14 +96,14 @@ if ( ! function_exists( 'project_theme_setup' ) ) :
 		 */
 		add_theme_support( 'editor-color-palette', array(
 			array(
-				'name' => esc_html__( 'light green', 'project-theme' ),
+				'name' => esc_html__( 'Light Green', 'project-theme' ),
 				'slug' => 'light-green',
-				'color' => '##8EE4AF',
+				'color' => '#8EE4AF',
 			),
 			array(
-				'name' => esc_html__( 'light grayish magenta', 'project-theme' ),
-				'slug' => 'light-grayish-magenta',
-				'color' => '#d0a5db',
+				'name' => esc_html__( 'Pale Green', 'project-theme' ),
+				'slug' => 'pale-green',
+				'color' => '#EDF5E1',
 			),
 			array(
 				'name' => esc_html__( 'very light gray', 'project-theme' ),
