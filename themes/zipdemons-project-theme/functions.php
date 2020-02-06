@@ -145,7 +145,7 @@ add_theme_support(
 	array(
 		array(
 			'name' => esc_html__( 'Large', 'project-theme' ),
-			'size' => 24,
+			'size' => 30,
 			'slug' => 'large'
 		),
 		array(
