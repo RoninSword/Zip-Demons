@@ -1,4 +1,5 @@
 <?php
+wp_register_style( 'custom-style', get_template_directory_uri() . '../style.css' );
 register_block_style(
     'core/quote',
     array(
@@ -10,7 +11,8 @@ register_block_style(
     array(
         'name'         => 'center-paragraph',
         'label'        => esc_html__( 'Center Paragraph', 'project-theme' ),
-        'style-handle' => '.wp-block-paragraph.is-style-center-paragraph { text-align: center; }',
-    )
+        'style-handle' => 'custom-style',
+    ),
+
 );
 ?>

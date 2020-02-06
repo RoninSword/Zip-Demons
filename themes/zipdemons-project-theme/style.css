@@ -58,3 +58,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 .has-white-background-color{
 	background-color: #ffffff;
 }
+
+p{
+	text-align: center;
+}
