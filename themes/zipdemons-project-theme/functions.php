@@ -223,6 +223,15 @@ function project_theme_scripts() {
 add_action( 'wp_enqueue_scripts', 'project_theme_scripts' );
 add_action( 'enqueue_block_editor_assets', 'project_theme_enqueue_block_editor_assets' );
 
+function sample_theme_enqueue_block_editor_assets() {
+	wp_enqueue_script(
+		'block-editor-js',
+		get_template_directory_uri() . '/assets/js/block-editor.js',
+		array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' )
+	);
+}
+add_action( 'enqueue_block_editor_assets', 'project_theme_enqueue_block_editor_assets' );
+
 /**
  * Implement the Custom Header feature.
  */
