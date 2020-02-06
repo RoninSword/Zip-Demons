@@ -10,7 +10,7 @@ register_block_style(
     array(
         'name'         => 'center-paragraph',
         'label'        => esc_html__( 'Center Paragraph', 'project-theme' ),
-        'inline_style' => '.wp-block-paragraph.is-style-center-paragraph { text-align: center; }',
+        'style-handle' => '.wp-block-paragraph.is-style-center-paragraph { text-align: center; }',
     )
 );
 ?>
