@@ -106,14 +106,14 @@ if ( ! function_exists( 'project_theme_setup' ) ) :
 				'color' => '#EDF5E1',
 			),
 			array(
-				'name' => esc_html__( 'regular green', 'project-theme' ),
+				'name' => esc_html__( 'Regular Green', 'project-theme' ),
 				'slug' => 'regular-green',
 				'color' => '#5CDB95',
 			),
 			array(
-				'name' => esc_html__( 'very dark gray', 'project-theme' ),
-				'slug' => 'very-dark-gray',
-				'color' => '#444',
+				'name' => esc_html__( 'Brown', 'project-theme' ),
+				'slug' => 'brown',
+				'color' => '#907163',
 			)
 		) );
 
