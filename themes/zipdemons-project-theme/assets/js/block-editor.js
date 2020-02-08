@@ -9,4 +9,8 @@ wp.domReady( function() {
         name: 'underline',
         label: 'Underline',
     } );
+    wp.blocks.registerBlockStyle( 'core/paragraph', {
+        name: 'center',
+        label: 'center',
+    } );
 } );
