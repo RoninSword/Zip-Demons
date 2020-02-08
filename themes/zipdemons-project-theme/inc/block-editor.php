@@ -28,7 +28,7 @@ register_block_style(
     array(
         'name'         => 'center-gallery',
         'label'        => esc_html__( 'Center Gallery', 'project-theme' ),
-        'inline_style' => '.wp-block-gallery { margin-left: 200px }',
+        'inline_style' => '.wp-block-gallery { left: 200px }',
     )
 
 );
