@@ -19,7 +19,7 @@
   
   .bg-img {
       /* The image used */
-      background-image: url("./images/header.png");
+      background-color: black;
       background-size: 100% 80% !important;
       margin-top: -36px !important;
       min-height: 350px;
@@ -33,11 +33,11 @@
       position: relative;
     }
   
-    #logo{
+    /* #logo{
       position: absolute;
       top:100px;
       left: 50px;
-    }
+    } */
     
     /* Position the navbar container inside the image */
     .container {
@@ -79,7 +79,7 @@
     }
   
     .menu a{
-      color: white;
+      color: black;
     }
   
     .menu a:hover{
