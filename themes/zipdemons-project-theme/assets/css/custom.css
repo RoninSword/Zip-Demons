@@ -19,7 +19,7 @@
   
   .bg-img {
       /* The image used */
-      background-color: black;
+      background-image: url("/assets/images/logo.png");
       background-size: 100% 80% !important;
       margin-top: -36px !important;
       min-height: 350px;
@@ -99,7 +99,7 @@
   }
   
   #colophon{
-      background-image: url("./images/footer3.png");
+      background-image: url("/assets/images/logo.png");
       background-size: 100% 80% !important;
       bottom: 0 !important;
       min-height: 450px;
