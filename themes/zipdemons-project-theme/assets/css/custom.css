@@ -72,12 +72,16 @@
     }
   
     .menu li{
-      font: 22px gadugi;
+      font: 22px;
       float: left;
       margin-right: 50px;
       
     }
   
+    .menu a{
+      color: black !important;
+      padding-bottom: 70px;
+    }
   
     .menu a:hover{
       color: black !important;
