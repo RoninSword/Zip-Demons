@@ -115,6 +115,9 @@
   .menu{
     align-content: space-between;
   }
+  h1{
+    margin-top: 120px !important;
+  }
     
     /* The navbar
     .topnav {
