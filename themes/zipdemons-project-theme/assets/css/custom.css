@@ -78,12 +78,9 @@
       
     }
   
-    .menu a{
-      color: black;
-    }
   
     .menu a:hover{
-      color: #ffb300;
+      color: black !important;
       animation: bounce 0.5s infinite;
     }
   
@@ -111,6 +108,9 @@
       /* Needed to position the navbar */
       position: fixed;
   }
+  .menu{
+    align-content: space-between;
+  }
     
     /* The navbar
     .topnav {
@@ -131,4 +131,5 @@
       background-color: #ddd;
       color: black;
     }
+    
     
