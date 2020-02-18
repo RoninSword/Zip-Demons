@@ -120,40 +120,21 @@
     margin-top: 120px !important;
   }
 
-  .has-light-green-color{
-    color: #8EE4AF
+  .has-red-color{
+    color: #F01A1A
   }
-  .has-light-green-background-color{
-    background-color: #8EE4AF;
-  }
-  
-  .has-pale-green-color{
-    color: #EDF5E1;
-  }
-  .has-pale-green-background-color{
-    background-color: #EDF5E1;
+  .has-red-background-color{
+    background-color: #F01A1A;
   }
   
-  .has-regular-green-color{
-    color: #5CDB95;
+  .has-gray-color{
+    color: #CECECE;
   }
-  .has-regular-green-background-color{
-    background-color: #5CDB95;
-  }
-  
-  .has-brown-color{
-    color: #907163;
-  }
-  .has-brown-background-color{
-    background-color: #907163;
+  .has-gray-background-color{
+    background-color: #CECECE;
   }
   
-  .has-off-green-color{
-    color: #379683;
-  }
-  .has-off-green-background-color{
-    background-color: #379683;
-  }
+  
   
   .has-black-color{
     color: #000000;

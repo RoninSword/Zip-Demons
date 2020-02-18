@@ -96,29 +96,14 @@ if ( ! function_exists( 'project_theme_setup' ) ) :
 		 */
 		add_theme_support( 'editor-color-palette', array(
 			array(
-				'name' => esc_html__( 'Light Green', 'project-theme' ),
-				'slug' => 'light-green',
-				'color' => '#8EE4AF',
+				'name' => esc_html__( 'Red', 'project-theme' ),
+				'slug' => 'red',
+				'color' => '#F01A1A',
 			),
 			array(
-				'name' => esc_html__( 'Pale Green', 'project-theme' ),
-				'slug' => 'pale-green',
-				'color' => '#EDF5E1',
-			),
-			array(
-				'name' => esc_html__( 'Regular Green', 'project-theme' ),
-				'slug' => 'regular-green',
-				'color' => '#5CDB95',
-			),
-			array(
-				'name' => esc_html__( 'Brown', 'project-theme' ),
-				'slug' => 'brown',
-				'color' => '#907163',
-			),
-			array(
-				'name' => esc_html__( 'Off Green', 'project-theme' ),
-				'slug' => 'off-green',
-				'color' => '#379683',
+				'name' => esc_html__( 'Gray', 'project-theme' ),
+				'slug' => 'gray',
+				'color' => '#CECECE',
 			),
 			array(
 				'name' => esc_html__( 'Black', 'project-theme' ),
