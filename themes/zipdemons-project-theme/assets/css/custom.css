@@ -119,6 +119,55 @@
   h1{
     margin-top: 120px !important;
   }
+
+  .has-light-green-color{
+    color: #8EE4AF
+  }
+  .has-light-green-background-color{
+    background-color: #8EE4AF;
+  }
+  
+  .has-pale-green-color{
+    color: #EDF5E1;
+  }
+  .has-pale-green-background-color{
+    background-color: #EDF5E1;
+  }
+  
+  .has-regular-green-color{
+    color: #5CDB95;
+  }
+  .has-regular-green-background-color{
+    background-color: #5CDB95;
+  }
+  
+  .has-brown-color{
+    color: #907163;
+  }
+  .has-brown-background-color{
+    background-color: #907163;
+  }
+  
+  .has-off-green-color{
+    color: #379683;
+  }
+  .has-off-green-background-color{
+    background-color: #379683;
+  }
+  
+  .has-black-color{
+    color: #000000;
+  }
+  .has-black-background-color{
+    background-color: #000000;
+  }
+  
+  .has-white-color{
+    color: #ffffff;
+  }
+  .has-white-background-color{
+    background-color: #ffffff;
+  }
     
     /* The navbar
     .topnav {
