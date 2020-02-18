@@ -24,15 +24,14 @@
 <div id="page" class="site">
 
     <header id="masthead" class="site-header">
-    <div class="bg-color">
-       
+    <div class="bg-img">
     </div>
         <!-- /*logo */ -->
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-            <img src="<?php echo get_template_directory_uri(); ?>./assets/images/logo.png" alt="Logo" width="250px" height="auto" />
+            <img src="<?php echo get_template_directory_uri(); ?>./assets/images/logo.png" alt="Logo" width="150px" height="auto" />
         </a>
             
-  
+
 
         <nav id="site-navigation" class="main-navigation">
             <?php
