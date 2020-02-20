@@ -19,7 +19,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
     font-family: bubblegum;
     src: url(fonts/Bubblegum.ttf);
   }
-  
+  .home{
+    background-color: black;
+  }
   
   body{
     height: 100vh;
@@ -78,7 +80,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
     }
   
     .menu a{
-      color: black !important;
+      color: white !important;
     }
   
     .menu a:hover{
@@ -113,9 +115,10 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   .menu{
     align-content: space-between;
   }
-  h1{
+  .entry-title{
     margin-top: 40px !important;
     text-align: center;
+    color: white;
   }
 
   .logo {
