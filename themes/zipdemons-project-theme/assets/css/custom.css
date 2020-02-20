@@ -76,7 +76,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
       font: 22px;
       float: left;
       margin-right: 50px;
-      
+      border-radius: 25px;
+      background: #F01A1A;
     }
   
     .menu a{
