@@ -112,9 +112,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   .menu{
     align-content: space-between;
   }
-  h1{
+  /* h1{
     margin-top: 120px !important;
-  }
+  } */
 
   .has-red-color{
     color: #F01A1A
