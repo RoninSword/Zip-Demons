@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package sample_theme
+ * @package 
  */
 
 ?>
@@ -27,7 +27,7 @@
 
         <!-- /*logo */ -->
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-            <img src="<?php echo get_template_directory_uri(); ?>./assets/images/logo.png" alt="Logo" width="50px" height="50px" />
+            <img class="logo" src="<?php echo get_template_directory_uri(); ?>./assets/images/logo.png" alt="Logo" width="50px" height="50px" />
 </div>
         </a>
             
