@@ -1,3 +1,15 @@
+/*!
+Theme Name: Project Theme
+Theme URI: http://underscores.me/
+Author: zip-demons
+Author URI: https://akashkumarpatel.com
+Description: CMS II main project theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: project-theme
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+**/
 @font-face{
     font-family: gadugi;
     src: url(fonts/gadugi.ttf);
