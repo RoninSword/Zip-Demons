@@ -15,8 +15,10 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
+<div id="primary" class="content-area">
 		<main id="main" class="site-main">
+			<div class="grid-container">
+				<div class="grid-x">
 
 		<?php
 		if ( have_posts() ) :
@@ -32,6 +34,11 @@ get_header();
 			/* Start the Loop */
 			while ( have_posts() ) :
 				the_post();
+				?>
+
+			<div class="cell small-12 medium-6 large-3">
+
+				<?php
 
 				/*
 				 * Include the Post-Type-specific template for the content.
@@ -40,6 +47,12 @@ get_header();
 				 */
 				get_template_part( 'template-parts/content', get_post_type() );
 
+				?>
+
+			</div>
+
+
+			<?php
 			endwhile;
 
 			the_posts_navigation();
@@ -50,6 +63,9 @@ get_header();
 
 		endif;
 		?>
+
+		</div>
+	</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
