@@ -8,7 +8,7 @@ function Project_Theme_theme_loop_shop_per_page( $cols ) {
   $cols = 9;
   return $cols;
 }
-add_filter( 'loop_shop_per_page', 'sample_theme_loop_shop_per_page', 20 );
+add_filter( 'loop_shop_per_page', 'Project_Theme_loop_shop_per_page', 20 );
 
 
 /**
@@ -26,12 +26,12 @@ add_filter('loop_shop_columns', 'loop_columns', 999);
  */
 add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
 
-function sample_theme_woocommerce_login_form(){
+function Project_Theme_woocommerce_login_form(){
     ?>
     <p><strong>Don't forget your password!!!</strong></p>
     <?php
 }
-add_action( 'woocommerce_login_form', 'sample_theme_woocommerce_login_form' );
+add_action( 'woocommerce_login_form', 'Project_Theme_woocommerce_login_form' );
 
 /**
  * Show cart contents / total Ajax
