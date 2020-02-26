@@ -37,7 +37,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   li{
     background-color: gray;
   }
-
+  li a{
+    color: red;
+  }
   
   nav {
     width: 100%;
