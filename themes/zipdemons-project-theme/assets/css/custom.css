@@ -52,6 +52,10 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 .product-template-default{
   background-color: black;
 }
+.woocommerce-Tabs-panel{
+  color: red;
+  text-align: center;
+}
   
   nav {
     width: 100%;
