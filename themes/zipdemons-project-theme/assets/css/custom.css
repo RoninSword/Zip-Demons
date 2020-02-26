@@ -40,6 +40,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   li a{
     color: red;
   }
+  ul {
+    list-style-type: none;
+   }
   
   nav {
     width: 100%;
