@@ -49,6 +49,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   width: 150px;
   height: 100px;
 }
+.product-template-default{
+  background-color: black;
+}
   
   nav {
     width: 100%;
