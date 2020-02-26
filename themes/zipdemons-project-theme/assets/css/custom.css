@@ -34,6 +34,13 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   .page-id-123{
     background-color: black;
   }
+  .page-id-2{
+    background-color: black;
+    color: red;
+  }
+  .page-id-2 > h1{
+    color: red;
+  }
   li{
     background-color: gray;
   }
