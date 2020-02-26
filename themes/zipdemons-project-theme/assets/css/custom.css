@@ -37,6 +37,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   li{
     background-color: gray;
   }
+  .products{
+    column-count: 3;
+  }
   li a{
     color: red;
   }
