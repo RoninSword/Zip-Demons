@@ -45,6 +45,8 @@
 
     <?php if( get_theme_mod( 'project-theme_facebook_url' ) ||  get_theme_mod( 'project-theme_twitter_url') { ?>
         <ul class = "social-media">
+            <?php if( get_theme_mod( 'project-theme_facebook_url' ) ) { ?>
+            <?php } ?>
         </ul>
 
 
