@@ -43,6 +43,12 @@ function project_theme_customize_register( $wp_customize ) {
 		'panel' => 'sample_theme_cosial_media_panel'
 	) );
 
+	$wp_customize->add_section( 'project_theme_twitter_section', array(
+		'title' => esc_html__( 'Twitter', 'sample_theme' ),
+		'capability' => 'edit_theme_options',
+		'panel' => 'project-theme_cosial_media_panel'
+	) );
+
 }
 add_action( 'customize_register', 'project_theme_customize_register' );
 
