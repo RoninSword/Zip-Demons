@@ -25,6 +25,15 @@ function project_theme_customize_register( $wp_customize ) {
 			'render_callback' => 'project_theme_customize_partial_blogdescription',
 		) );
 	}
+
+	/**
+	 * PANELS
+	 */
+	$wp_customize->add_panel( 'project_theme_cosial_media_panel', array(
+		'title' => esc_html__( 'Social Media', 'sample_theme' ),
+		'capability' => 'edit_theme_options',
+	) );
+
 }
 add_action( 'customize_register', 'project_theme_customize_register' );
 
