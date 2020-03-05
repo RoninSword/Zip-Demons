@@ -46,7 +46,7 @@ function project_theme_customize_register( $wp_customize ) {
 	$wp_customize->add_section( 'project_theme_twitter_section', array(
 		'title' => esc_html__( 'Twitter', 'sample_theme' ),
 		'capability' => 'edit_theme_options',
-		'panel' => 'project-theme_cosial_media_panel'
+		'panel' => 'project_theme_cosial_media_panel'
 	) );
 
 	/**
@@ -67,22 +67,22 @@ function project_theme_customize_register( $wp_customize ) {
 	 * CONTROLS
 	 */
 	$wp_customize->add_control( 'project_theme_facebook_url', array(
-		'label' => esc_html__( 'URL', 'project-theme' ),
-		'description' => esc_html__( 'Add URL to display Facebook icon/link', 'project-theme' ),
-		'section' => 'project-theme_facebook_section',
+		'label' => esc_html__( 'URL', 'project_theme' ),
+		'description' => esc_html__( 'Add URL to display Facebook icon/link', 'project_theme' ),
+		'section' => 'project_theme_facebook_section',
 		'type' => 'input',
 		'input_attrs' => array(
-			'placeholder' => esc_html__( 'https://facebook.com', 'project-theme' ),
+			'placeholder' => esc_html__( 'https://facebook.com', 'project_theme' ),
 		),
 	) );
 
 	$wp_customize->add_control( 'project_theme_twitter_url', array(
-		'label' => esc_html__( 'URL', 'project-theme' ),
-		'description' => esc_html__( 'Add URL to display Twitter icon/link', 'project-theme' ),
+		'label' => esc_html__( 'URL', 'project_theme' ),
+		'description' => esc_html__( 'Add URL to display Twitter icon/link', 'project_theme' ),
 		'section' => 'project-theme_twitter_section',
 		'type' => 'input',
 		'input_attrs' => array(
-			'placeholder' => esc_html__( 'https://twitter.com', 'project-theme' ),
+			'placeholder' => esc_html__( 'https://twitter.com', 'project_theme' ),
 		),
 	) );
 
