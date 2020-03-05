@@ -46,7 +46,7 @@
     <?php if(get_theme_mod( 'project-theme_facebook')) { ?>
         <ul class = "social-media">
             <?php if(get_theme_mod( 'sample_theme_facebook_url' )) { ?>
-
+                <li class="facebook"><a href="<?php echo get_theme_mod('sample_theme_facebook_url'); ?>"></a><li>get_template_directory_uri().'/assets/img/facebook-icon.jpg';?>" alt="<?php echo esc_html__("Facebook",'project-theme');?>"></a></li>
             <?php} ?>
         </ul>
     }
