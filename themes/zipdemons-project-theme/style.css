@@ -62,7 +62,6 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 p{
 	text-align: center;
 }
-<<<<<<< HEAD
 * {box-sizing: border-box;}
 
 body { 
@@ -116,8 +115,7 @@ body {
   .header-right {
     float: none;
   }
-=======
+}
 .wsf-label{
 	color:white;
->>>>>>> master
 }
