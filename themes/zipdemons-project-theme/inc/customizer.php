@@ -76,6 +76,16 @@ function project_theme_customize_register( $wp_customize ) {
 		),
 	) );
 
+	$wp_customize->add_control( 'project-theme_twitter_url', array(
+		'label' => esc_html__( 'URL', 'project-theme' ),
+		'description' => esc_html__( 'Add URL to display Twitter icon/link', 'project-theme' ),
+		'section' => 'project-theme_twitter_section',
+		'type' => 'input',
+		'input_attrs' => array(
+			'placeholder' => esc_html__( 'https://twitter.com', 'project-theme' ),
+		),
+	) );
+
 }
 add_action( 'customize_register', 'project_theme_customize_register' );
 
