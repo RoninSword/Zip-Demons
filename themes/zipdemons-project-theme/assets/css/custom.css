@@ -27,6 +27,54 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
     height: 100vh;
     background-color: black;
   }
+
+  .page-id-126{
+    background-color: black;
+  }
+  .page-id-123{
+    background-color: black;
+  }
+  .page-id-2{
+    background-color: black;
+    color: red;
+  }
+  .page-id-2 > h1{
+    color: red;
+  }
+  .page-id-124{
+    background-color: black;
+    color: red;
+  }
+  .page-id-90{
+    background-color: black;
+    color: red;
+  }
+  li{
+    background-color: gray;
+  }
+  .products{
+    column-count: 3;
+    text-align: center;
+  }
+  li a{
+    color: red;
+  }
+  .products columns-3 ul {
+    padding: 0; /* remove default padding and all margins! */
+    margin: 0;
+    list-style-type: none; /* remove the • */
+   }
+.products columns-3 ul li{
+  width: 150px;
+  height: 100px;
+}
+.product-template-default{
+  background-color: black;
+}
+.woocommerce-Tabs-panel{
+  color: red;
+  text-align: center;
+}
   
   nav {
     width: 100%;
@@ -154,6 +202,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   }
   .has-white-background-color{
     background-color: #ffffff;
+  }
+  .wsf-label {
+    color: white;
   }
     
     /* The navbar
