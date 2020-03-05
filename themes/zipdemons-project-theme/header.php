@@ -43,6 +43,8 @@
         </nav><!-- #site-navigation -->
     </header><!-- #masthead -->
 
+<<<<<<< HEAD
+=======
     <?php if( get_theme_mod( 'project-theme_facebook_url' ) ||  get_theme_mod( 'project-theme_twitter_url') { ?>
         <ul class = "social-media">
         
@@ -57,5 +59,6 @@
         <?php } ?>
 
 
+>>>>>>> develop
     <div id="content" class="site-content">
 
