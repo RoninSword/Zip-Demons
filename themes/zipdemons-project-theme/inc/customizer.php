@@ -57,6 +57,11 @@ function project_theme_customize_register( $wp_customize ) {
 		'default' => '',
 		'sanitize_callback' => 'esc_url_raw',
 	) );
+	$wp_customize->add_setting( 'project-theme_twitter_url', array(
+		'transport' => 'refresh',
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw',
+	) );
 
 }
 add_action( 'customize_register', 'project_theme_customize_register' );
