@@ -20,33 +20,36 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
     src: url(fonts/Bubblegum.ttf);
   }
   .home{
-    background-color: black;
+    
   }
   
   body{
     height: 100vh;
-    background-color: black;
+    
   }
 
   .page-id-126{
-    background-color: black;
+   
   }
   .page-id-123{
-    background-color: black;
+    
   }
   .page-id-2{
-    background-color: black;
+    
     color: red;
   }
   .page-id-2 > h1{
     color: red;
   }
   .page-id-124{
-    background-color: black;
+    
     color: red;
   }
+  .social-media{
+    list-style-type: none;
+  }
   .page-id-90{
-    background-color: black;
+   
     color: red;
   }
   li{
