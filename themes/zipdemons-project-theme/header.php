@@ -48,6 +48,9 @@
             <?php if( get_theme_mod( 'project-theme_facebook_url' ) ) { ?>
                 <li class="facebook"><a href="<?php echo get_theme_mod( 'project-theme_facebook_url' ); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/img/facebook-icon.jpg'; ?>" alt="<?php echo esc_html__( "Facebook", 'project-theme' );?>"></a></li>
             <?php } ?>
+
+            <?php if( get_theme_mod( 'project-theme_twitter_url' ) ) { ?>
+            <?php } ?>
         </ul>
 
 
