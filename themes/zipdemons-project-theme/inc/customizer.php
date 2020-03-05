@@ -52,12 +52,12 @@ function project_theme_customize_register( $wp_customize ) {
 	/**
 	 * SETTINGS
 	 */
-	$wp_customize->add_setting( 'project-theme_facebook_url', array(
+	$wp_customize->add_setting( 'project_theme_facebook_url', array(
 		'transport' => 'refresh',
 		'default' => '',
 		'sanitize_callback' => 'esc_url_raw',
 	) );
-	$wp_customize->add_setting( 'project-theme_twitter_url', array(
+	$wp_customize->add_setting( 'project_theme_twitter_url', array(
 		'transport' => 'refresh',
 		'default' => '',
 		'sanitize_callback' => 'esc_url_raw',
@@ -66,7 +66,7 @@ function project_theme_customize_register( $wp_customize ) {
 	/**
 	 * CONTROLS
 	 */
-	$wp_customize->add_control( 'project-theme_facebook_url', array(
+	$wp_customize->add_control( 'project_theme_facebook_url', array(
 		'label' => esc_html__( 'URL', 'project-theme' ),
 		'description' => esc_html__( 'Add URL to display Facebook icon/link', 'project-theme' ),
 		'section' => 'project-theme_facebook_section',
@@ -76,7 +76,7 @@ function project_theme_customize_register( $wp_customize ) {
 		),
 	) );
 
-	$wp_customize->add_control( 'project-theme_twitter_url', array(
+	$wp_customize->add_control( 'project_theme_twitter_url', array(
 		'label' => esc_html__( 'URL', 'project-theme' ),
 		'description' => esc_html__( 'Add URL to display Twitter icon/link', 'project-theme' ),
 		'section' => 'project-theme_twitter_section',
