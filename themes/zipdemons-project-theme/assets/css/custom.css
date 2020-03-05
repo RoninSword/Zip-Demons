@@ -80,7 +80,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
     width: 100%;
   }
   
-
+  .wp-post-image{
+    background-color: white;
+  }
   
     #logo{
       position: absolute;
