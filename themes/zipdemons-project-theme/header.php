@@ -43,6 +43,7 @@
         </nav><!-- #site-navigation -->
     </header><!-- #masthead -->
 
+    <?php if( get_theme_mod( 'project-theme_facebook_url' ) ||  get_theme_mod( 'project-theme_twitter_url') { ?>
 
 
     <div id="content" class="site-content">
