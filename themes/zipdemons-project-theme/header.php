@@ -50,6 +50,7 @@
             <?php } ?>
 
             <?php if( get_theme_mod( 'project-theme_twitter_url' ) ) { ?>
+                <li class="twitter"><a href="<?php echo get_theme_mod( 'project-theme_twitter_url' ); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/img/twitter.png'; ?>" alt="<?php echo esc_html__( "Twitter", 'project-theme' );?>"></a></li>
             <?php } ?>
         </ul>
 
