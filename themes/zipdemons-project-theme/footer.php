@@ -1,4 +1,4 @@
-<?php
+[10:35 a.m., 2020-03-05] Akash Patel: <?php
 /**
  * The template for displaying the footer
  *
@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'sample-theme' ) ); ?>">
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'project-theme' ) ); ?>">
 				
 			</a>
 			<span class="sep">  </span>

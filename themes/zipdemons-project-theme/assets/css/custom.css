@@ -1,3 +1,15 @@
+/*!
+Theme Name: Project Theme
+Theme URI: http://underscores.me/
+Author: zip-demons
+Author URI: https://akashkumarpatel.com
+Description: CMS II main project theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: project-theme
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+**/
 @font-face{
     font-family: gadugi;
     src: url(fonts/gadugi.ttf);
@@ -7,32 +19,80 @@
     font-family: bubblegum;
     src: url(fonts/Bubblegum.ttf);
   }
-  
+  .home{
+    
+  }
   
   body{
     height: 100vh;
-    background-color: black;
+    
   }
+
+  .page-id-126{
+   
+  }
+  .page-id-123{
+    
+  }
+  .page-id-2{
+    
+    color: red;
+  }
+  .page-id-2 > h1{
+    color: red;
+  }
+  .page-id-124{
+    
+    color: red;
+  }
+  .social-media{
+    list-style-type: none;
+  }
+  .page-id-90{
+   
+    color: red;
+  }
+  li{
+    background-color: gray;
+  }
+  .products{
+    column-count: 3;
+    text-align: center;
+  }
+  li a{
+    color: red;
+  }
+  .products columns-3 ul {
+    padding: 0; /* remove default padding and all margins! */
+    margin: 0;
+    list-style-type: none; /* remove the • */
+   }
+.products columns-3 ul li{
+  width: 150px;
+  height: 100px;
+}
+.product-template-default{
+  background-color: black;
+}
+.woocommerce-Tabs-panel{
+  color: red;
+  text-align: center;
+}
   
   nav {
     width: 100%;
   }
-  
-  .bg-img {
-      /* The image used */
-      background-image: url("../images/logo.png");
-      background-size: 100% 80% !important;
-      margin-top: -36px !important;
-      min-height: 350px;
-    
-      /* Center and scale the image nicely */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      
-      /* Needed to position the navbar */
-      position: relative;
-    }
+  .facebook{
+    float: right;
+    width: 50px;
+    height: 50px;
+  }
+  .twitter{
+    float: right;
+    width: 50px;
+    height: 50px;
+  }
+
   
     #logo{
       position: absolute;
@@ -49,15 +109,14 @@
     }
   
     #site-navigation{
-      position: fixed;
+      
       top: 0;
       
   
     }
   
     #masthead{
-      position: fixed;
-      width:100vw;
+      
       z-index: 100;
     }
   
@@ -68,20 +127,21 @@
       width: 100%;
     }
     .menu ul{
+      position: absolute;
       list-style-type:none ;
-      margin-top: 120px;
+      top: 20px !important;
     }
   
     .menu li{
       font: 22px;
       float: left;
       margin-right: 50px;
-      
+      border-radius: 25px;
+      background: #F01A1A;
     }
   
     .menu a{
-      color: black !important;
-      padding-bottom: 70px;
+      color: white !important;
     }
   
     .menu a:hover{
@@ -116,10 +176,56 @@
   .menu{
     align-content: space-between;
   }
-  h1{
-    margin-top: 120px !important;
+  .entry-title{
+    margin-top: 80px !important;
+    text-align: center;
+    color: white;
   }
-    
+
+  .logo {
+    border: 0;
+    margin-top: 40px !important;
+}
+  .has-red-color{
+    color: #F01A1A
+  }
+  .has-red-background-color{
+    background-color: #F01A1A;
+  }
+  
+  .has-gray-color{
+    color: #CECECE;
+  }
+  .has-gray-background-color{
+    background-color: #CECECE;
+  }
+  
+  
+  
+  .has-black-color{
+    color: #000000;
+  }
+  .has-black-background-color{
+    background-color: #000000;
+  }
+  
+  .has-white-color{
+    color: #ffffff;
+  }
+  .has-white-background-color{
+    background-color: #ffffff;
+  }
+  .wsf-label {
+    color: white;
+  }
+
+  .wp-block-group__inner-container{
+  margin-left: 225px;
+  }
+
+  wp-block-gallery{
+    margin-left: 225px;
+  }
     /* The navbar
     .topnav {
       overflow: hidden;

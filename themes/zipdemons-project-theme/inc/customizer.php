@@ -25,6 +25,67 @@ function project_theme_customize_register( $wp_customize ) {
 			'render_callback' => 'project_theme_customize_partial_blogdescription',
 		) );
 	}
+
+	/**
+	 * PANELS
+	 */
+	$wp_customize->add_panel( 'project_theme_cosial_media_panel', array(
+		'title' => esc_html__( 'Social Media', 'project_theme' ),
+		'capability' => 'edit_theme_options',
+	) );
+
+	/**
+	 * SECITIONS
+	 */
+	$wp_customize->add_section( 'project_theme_facebook_section', array(
+		'title' => esc_html__( 'Facebook', 'project_theme' ),
+		'capability' => 'edit_theme_options',
+		'panel' => 'project_theme_cosial_media_panel'
+	) );
+
+	$wp_customize->add_section( 'project_theme_twitter_section', array(
+		'title' => esc_html__( 'Twitter', 'project_theme' ),
+		'capability' => 'edit_theme_options',
+		'panel' => 'project_theme_cosial_media_panel'
+	) );
+
+	/**
+	 * SETTINGS
+	 */
+	$wp_customize->add_setting( 'project_theme_facebook_url', array(
+		'transport' => 'refresh',
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw',
+	) );
+	$wp_customize->add_setting( 'project_theme_twitter_url', array(
+		'transport' => 'refresh',
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw',
+	) );
+
+	/**
+	 * CONTROLS
+	 */
+	$wp_customize->add_control( 'project_theme_facebook_url', array(
+		'label' => esc_html__( 'URL', 'project_theme' ),
+		'description' => esc_html__( 'Add URL to display Facebook icon/link', 'project_theme' ),
+		'section' => 'project_theme_facebook_section',
+		'type' => 'input',
+		'input_attrs' => array(
+			'placeholder' => esc_html__( 'https://facebook.com', 'project_theme' ),
+		),
+	) );
+
+	$wp_customize->add_control( 'project_theme_twitter_url', array(
+		'label' => esc_html__( 'URL', 'project_theme' ),
+		'description' => esc_html__( 'Add URL to display Twitter icon/link', 'project_theme' ),
+		'section' => 'project_theme_twitter_section',
+		'type' => 'input',
+		'input_attrs' => array(
+			'placeholder' => esc_html__( 'https://twitter.com', 'project_theme' ),
+		),
+	) );
+
 }
 add_action( 'customize_register', 'project_theme_customize_register' );
 
