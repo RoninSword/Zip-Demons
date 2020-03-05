@@ -48,7 +48,7 @@
             <?php if( get_theme_mod( 'project_theme_facebook_url' ) ) { ?>
                 <li class="facebook"><a href="<?php echo get_theme_mod( 'project_theme_facebook_url' ); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/img/facebook-icon.jpg'; ?>" alt="<?php echo esc_html__( "Facebook", 'project_theme' );?>"></a></li>
             <?php } ?>
-            <?php if( get_theme_mod( 'project-theme_twitter_url' ) ) { ?>
+            <?php if( get_theme_mod( 'project_theme_twitter_url' ) ) { ?>
                 <li class="twitter"><a href="<?php echo get_theme_mod( 'project_theme_twitter_url' ); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/img/twitter.png'; ?>" alt="<?php echo esc_html__( "Twitter", 'project_theme' );?>"></a></li>
             <?php } ?>
         </ul>
