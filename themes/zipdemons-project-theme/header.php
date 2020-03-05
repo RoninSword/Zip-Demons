@@ -44,7 +44,8 @@
     </header><!-- #masthead -->
 
     <?php if(get_theme_mod( 'project-theme_facebook')) { ?>
-
+        <ul class = "social-media">
+        </ul>
     }
 
 
