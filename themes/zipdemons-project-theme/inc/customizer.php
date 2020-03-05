@@ -34,6 +34,15 @@ function project_theme_customize_register( $wp_customize ) {
 		'capability' => 'edit_theme_options',
 	) );
 
+	/**
+	 * SECITIONS
+	 */
+	$wp_customize->add_section( 'project_theme_facebook_section', array(
+		'title' => esc_html__( 'Facebook', 'sample_theme' ),
+		'capability' => 'edit_theme_options',
+		'panel' => 'sample_theme_cosial_media_panel'
+	) );
+
 }
 add_action( 'customize_register', 'project_theme_customize_register' );
 
