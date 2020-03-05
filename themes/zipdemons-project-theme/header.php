@@ -43,5 +43,10 @@
         </nav><!-- #site-navigation -->
     </header><!-- #masthead -->
 
+    <?php if(get_theme_mod( 'project-theme_facebook')) { ?>
+
+    }
+
+
     <div id="content" class="site-content">
 
