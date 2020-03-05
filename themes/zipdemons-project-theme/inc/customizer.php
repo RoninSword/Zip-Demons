@@ -63,6 +63,14 @@ function project_theme_customize_register( $wp_customize ) {
 		'sanitize_callback' => 'esc_url_raw',
 	) );
 
+	/**
+	 * CONTROLS
+	 */
+	$wp_customize->add_control( 'project-theme_facebook_url', array(
+		'label' => esc_html__( 'URL', 'project-theme' ),
+		'description' => esc_html__( 'Add URL to display Facebook icon/link', 'project-theme' ),
+		'section' => 'project-theme_facebook_section',
+
 }
 add_action( 'customize_register', 'project_theme_customize_register' );
 
