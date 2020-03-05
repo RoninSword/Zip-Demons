@@ -49,6 +49,15 @@ function project_theme_customize_register( $wp_customize ) {
 		'panel' => 'project-theme_cosial_media_panel'
 	) );
 
+	/**
+	 * SETTINGS
+	 */
+	$wp_customize->add_setting( 'project-theme_facebook_url', array(
+		'transport' => 'refresh',
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw',
+	) );
+
 }
 add_action( 'customize_register', 'project_theme_customize_register' );
 
