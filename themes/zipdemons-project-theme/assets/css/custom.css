@@ -224,6 +224,10 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   wp-block-gallery{
     margin-left: 225px;
   }
+
+  p{
+    color:black;
+  }
     /* The navbar
     .topnav {
       overflow: hidden;
