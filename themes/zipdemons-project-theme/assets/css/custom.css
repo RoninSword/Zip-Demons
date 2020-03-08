@@ -241,6 +241,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
     display: table;
 	margin-left: 300px;
 }
+body{
+	padding:100px;
+}
     /* The navbar
     .topnav {
       overflow: hidden;
