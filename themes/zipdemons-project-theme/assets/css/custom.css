@@ -228,6 +228,12 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   p{
     color:black;
   }
+  .wp-block-image{
+    position: center;
+  }
+  .entry-title{
+    color: black;
+  }
     /* The navbar
     .topnav {
       overflow: hidden;
