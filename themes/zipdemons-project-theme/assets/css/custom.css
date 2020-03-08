@@ -234,6 +234,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   .entry-title{
     color: black;
   }
+  h1{
+    color: black;
+  }
     /* The navbar
     .topnav {
       overflow: hidden;
