@@ -19,8 +19,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
     font-family: bubblegum;
     src: url(fonts/Bubblegum.ttf);
   }
-  .home{
-    
+  h4{
+    margin-left:220px;
   }
   
   body{
@@ -28,12 +28,12 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
     
   }
 
-  .page-id-126{
+  /* .page-id-126{
    
   }
   .page-id-123{
     
-  }
+  } */
   .page-id-2{
     
     color: red;
@@ -60,7 +60,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
     text-align: center;
   }
   li a{
-    color: red;
+    color: black !important;
   }
   .products columns-3 ul {
     padding: 0; /* remove default padding and all margins! */
@@ -160,11 +160,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   }
   
   #colophon{
-      background-image: url("/assets/images/logo.png");
-      background-size: 100% 80% !important;
+      /* background-image: url("/assets/images/logo.png"); */
+      /* background-size: 100% 80% !important; */
       bottom: 0 !important;
-      min-height: 450px;
-      width: 100vw;
       /* Center and scale the image nicely */
       background-position: center;
       background-repeat: no-repeat;
@@ -210,13 +208,13 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   }
   
   .has-white-color{
-    color: #ffffff;
+      color: black;
   }
   .has-white-background-color{
     background-color: #ffffff;
   }
   .wsf-label {
-    color: white;
+    color: black;
   }
 
   .wp-block-group__inner-container{
@@ -226,6 +224,30 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   wp-block-gallery{
     margin-left: 225px;
   }
+
+  p{
+    color:black;
+  }
+  .wp-block-image{
+    position: center;
+  }
+  .entry-title{
+    color: black;
+  }
+  h1{
+    color: black;
+  }
+  .wp-block-image .aligncenter, .wp-block-image .alignleft, .wp-block-image .alignright, .wp-block-image.is-resized {
+    display: table;
+	margin-left: 300px;
+}
+body{
+	padding:100px;
+}
+.menu{
+	padding-bottom:20px !important;
+	margin-top:-60px !important;
+}
     /* The navbar
     .topnav {
       overflow: hidden;

@@ -13,9 +13,9 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
+	<footer>
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'project-theme' ) ); ?>">
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'project_theme' ) ); ?>">
 				
 			</a>
 			<span class="sep">  </span>
