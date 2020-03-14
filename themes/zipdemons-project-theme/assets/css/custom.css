@@ -249,6 +249,9 @@ body{
 	padding-bottom:20px !important;
 	margin-top:-60px !important;
 }
+.entry-footer{
+	display: none;
+}
     /* The navbar
     .topnav {
       overflow: hidden;
