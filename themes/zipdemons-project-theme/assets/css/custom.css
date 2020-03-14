@@ -252,6 +252,15 @@ body{
 .entry-footer, .search-field,.search-submit,.widget-area{
 	display: none;
 }
+footer{
+	background-color: white
+}
+.products{
+  list-style: none
+}
+  /* .menu{
+    background-color: white;
+  } */
     /* The navbar
     .topnav {
       overflow: hidden;
