@@ -15,3 +15,4 @@ function project_theme_init_post_types() {
         'name_admin_bar'        => esc_html_x( 'Maintenance', 'Add New on Toolbar', 'project_theme' ),
         'add_new'               => esc_html__( 'Add New', 'project_theme' ),
         'add_new_item'          => esc_html__( 'Add New Maintenance', 'project_theme' ),
+        'edit_item'             => esc_html__( 'Edit Maintenance', 'project_theme' ),
