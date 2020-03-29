@@ -33,3 +33,24 @@ function project_theme_init_post_types() {
         'items_list_navigation' => esc_html_x( 'Maintenances list navigation', 'Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4', 'project_theme' ),
         'items_list'            => esc_html_x( 'Maintenances list', 'Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4', 'project_theme' ),
     );
+
+    $args = array(
+        'labels'             => $labels,
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => array( 'slug' => 'maintenances' ),
+        'capability_type'    => 'post',
+        'has_archive'        => true,
+        'hierarchical'       => false,
+        'menu_position'      => null,
+        'menu_icon'          => 'dashicons-book',
+        'show_in_rest'       => true,
+        'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+    );
+ 
+    register_post_type( 'project_theme_maintenance', $args );
+}
+add_action( 'init', 'project_theme_init_post_types' );
