@@ -21,3 +21,4 @@ function project_theme_init_post_types() {
         'search_items'          => esc_html__( 'Search Maintenances', 'project_theme' ),
         'parent_item_colon'     => esc_html__( 'Parent Maintenances:', 'project_theme' ),
         'not_found'             => esc_html__( 'No maintenances found.', 'project_theme' ),
+        'not_found_in_trash'    => esc_html__( 'No maintenances found in Trash.', 'project_theme' ),
