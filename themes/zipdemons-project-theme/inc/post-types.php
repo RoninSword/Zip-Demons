@@ -47,7 +47,7 @@ function project_theme_init_post_types() {
         'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => null,
-        'menu_icon'          => 'dashicons-admin-site-alt3',
+        'menu_icon'          => 'dashicons-admin-tools',
         'show_in_rest'       => true,
         'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
     );
