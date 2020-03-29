@@ -23,3 +23,5 @@ function project_theme_init_post_types() {
         'not_found'             => esc_html__( 'No maintenances found.', 'project_theme' ),
         'not_found_in_trash'    => esc_html__( 'No maintenances found in Trash.', 'project_theme' ),
         'featured_image'        => esc_html_x( 'Maintenance Cover Image', 'Overrides the “Featured Image” phrase for this post type. Added in 4.3', 'project_theme' ),
+        'set_featured_image'    => esc_html_x( 'Set cover image', 'Overrides the “Set featured image” phrase for this post type. Added in 4.3', 'project_theme' ),
+        
