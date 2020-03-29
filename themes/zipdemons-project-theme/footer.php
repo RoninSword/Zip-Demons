@@ -15,7 +15,7 @@
 
 	<?php
 	$args = array(
-		'post_type' => 'sample_theme_maintenance',
+		'post_type' => 'project_theme_maintenance',
 		'post__not_in' => array(
 			get_the_ID(),
 		),
