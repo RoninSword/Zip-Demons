@@ -19,3 +19,4 @@ function project_theme_init_post_types() {
         'view_item'             => esc_html__( 'View Maintenance', 'project_theme' ),
         'all_items'             => esc_html__( 'All Maintenances', 'project_theme' ),
         'search_items'          => esc_html__( 'Search Maintenances', 'project_theme' ),
+        'parent_item_colon'     => esc_html__( 'Parent Maintenances:', 'project_theme' ),
