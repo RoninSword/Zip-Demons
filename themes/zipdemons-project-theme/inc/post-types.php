@@ -17,3 +17,4 @@ function project_theme_init_post_types() {
         'add_new_item'          => esc_html__( 'Add New Maintenance', 'project_theme' ),
         'edit_item'             => esc_html__( 'Edit Maintenance', 'project_theme' ),
         'view_item'             => esc_html__( 'View Maintenance', 'project_theme' ),
+        'all_items'             => esc_html__( 'All Maintenances', 'project_theme' ),
