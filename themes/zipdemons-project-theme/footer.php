@@ -19,7 +19,7 @@
 		'post__not_in' => array(
 			get_the_ID(),
 		),
-		'posts_per_page' => 1,
+		'posts_per_page' => 3,
 	);
 
 	$events = new WP_Query( $args );
