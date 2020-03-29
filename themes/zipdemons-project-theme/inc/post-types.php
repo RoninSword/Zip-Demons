@@ -29,4 +29,5 @@ function project_theme_init_post_types() {
         'archives'              => esc_html_x( 'Maintenance archives', 'The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4', 'project_theme' ),
         'insert_into_item'      => esc_html_x( 'Insert into maintenance', 'Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4', 'project_theme' ),
         'uploaded_to_this_item' => esc_html_x( 'Uploaded to this maintenance', 'Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4', 'project_theme' ),
+        'filter_items_list'     => esc_html_x( 'Filter maintenances list', 'Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4', 'project_theme' ),
         
