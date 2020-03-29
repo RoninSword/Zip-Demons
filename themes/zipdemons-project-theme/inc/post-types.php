@@ -4,8 +4,9 @@
  *
  * @see get_post_type_labels() for label keys.
  */
-function sample_theme_init_post_types() {
+function project_theme_init_post_types() {
         /**
      * Server Maintenance
      */
     $labels = array(
+        'name'                  => esc_html_x( 'Maintenance', 'Post type general name', 'project_theme' ),
