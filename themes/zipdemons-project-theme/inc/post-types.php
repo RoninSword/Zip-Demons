@@ -52,6 +52,6 @@ function project_theme_init_post_types() {
         'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
     );
  
-    register_post_type( 'project_theme_book', $args );
+    register_post_type( 'project_theme_main', $args );
 }
 add_action( 'init', 'project_theme_init_post_types' );

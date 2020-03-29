@@ -15,7 +15,7 @@
 
 	<?php
 	$args = array(
-		'post_type' => 'project_theme_book',
+		'post_type' => 'project_theme_main',
 		'post__not_in' => array(
 			get_the_ID(),
 		),
