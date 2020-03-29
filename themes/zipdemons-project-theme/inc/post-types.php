@@ -32,3 +32,4 @@ function project_theme_init_post_types() {
         'filter_items_list'     => esc_html_x( 'Filter maintenances list', 'Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4', 'project_theme' ),
         'items_list_navigation' => esc_html_x( 'Maintenances list navigation', 'Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4', 'project_theme' ),
         'items_list'            => esc_html_x( 'Maintenances list', 'Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4', 'project_theme' ),
+    );
