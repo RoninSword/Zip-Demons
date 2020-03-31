@@ -37,7 +37,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-		<p><?php echo esc_html__( 'Copyright', 'project_theme' ); ?> <?php echo date( 'Y' )?></p>
+		
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'project-theme' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
@@ -65,7 +65,7 @@
 
 <!--showing three latest recent post from new post type with title,image,link and exceprt-->
 <div class="grid-x recent3post">
-   <center> <p class="postTTl"> Whats new?</p><br/></center>
+   <center> <p class="postTTl"> Whats new?</p><br/><p class="postTTl"> For $12.99, this one-hour crash course covering Zip Demons Cloud Essentials is the training needed to effectively manage Zip Demons systems and pass the Zip Demons Certified Cloud Practitioner exam.</p></center>
 <?php while (have_posts()) : the_post(); ?>
     <div class="cell small-12 medium-4 large-4 min-height-180">
 
