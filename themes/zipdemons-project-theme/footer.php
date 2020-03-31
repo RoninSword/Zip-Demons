@@ -13,7 +13,7 @@
 
 	</div><!-- #content -->
 
-	[11:04 p.m., 2020-03-30] Dhrupid Shah: <!--showing recent posts only on home page -->
+	 <!--showing recent posts only on home page -->
 <?php if ( is_front_page() ) { ?>
 
 <?php 
