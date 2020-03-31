@@ -54,7 +54,7 @@
 </div><!-- #page -->
 
 <!--showing recent posts only on home page -->
-<?php if ( is_front_page() ) { ?>
+<?php if ( is_front_page() && is_post_page() ) { ?>
 
 <?php 
     query_posts(array( 
