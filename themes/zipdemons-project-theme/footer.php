@@ -13,6 +13,41 @@
 
 	</div><!-- #content -->
 
+	[11:04 p.m., 2020-03-30] Dhrupid Shah: <!--showing recent posts only on home page -->
+<?php if ( is_front_page() ) { ?>
+
+<?php 
+    query_posts(array( 
+        'post_type' => 'candies',
+        'showposts' => 3 
+    ) );  
+?>
+
+<!--showing three latest recent post from new post type with title,image,link and exceprt-->
+<div class="grid-x recent3post">
+   <center> <p class="postTTl"> Whats new?</p><br/></center>
+<?php while (have_posts()) : the_post(); ?>
+    <div class="cell small-12 medium-4 large-4 min-height-180">
+
+        <?php
+            if( has_post_thumbnail() ) { 
+                echo '<div style="float:left;">';
+                the_post_thumbnail('thumbnail');
+                echo '</div>';
+            }
+
+          ?>
+          <br/><br/><br/>
+        <h5><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h5>
+        <h5><?php echo get_the_excerpt(); ?></h5>
+    </div>
+<?php endwhile;?>
+</div>
+<br/>
+<br/>
+
+<?php } ?>
+
 	<?php
 	$args = array(
 		'post_type' => 'project_theme_main',
