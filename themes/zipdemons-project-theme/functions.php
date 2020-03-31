@@ -188,6 +188,27 @@ function project_theme_widgets_init() {
 }
 add_action( 'widgets_init', 'project_theme_widgets_init' );
 
+//look for about page
+function is_tree( $pid ) {      // $pid = The ID of the page we're looking for pages underneath
+    global $post;               // load details about this page
+ 
+    if ( is_page($pid) )
+        return true;            // we're at the page or at a sub page
+ 
+    $anc = get_post_ancestors( $post->ID );
+    foreach ( $anc as $ancestor ) {
+        if( is_page() && $ancestor == $pid ) {
+            return true;
+        }
+    }
+ 
+    return false;  // we aren't at the page, and the page is not an ancestor
+}
+
+
+// You can use this code to check whether you’re on the nth page in a Post or Page that has been divided into pages using the <!--nextpage-->
+
+
 /**
  * Enqueue scripts and styles.
  */
@@ -254,6 +275,11 @@ require get_template_directory() . '/inc/customizer.php';
  * Functions which enhance the theme by hooking into WooCommerce.
  */
 require get_template_directory() . '/inc/woocommerce.php';
+
+/**
+ * Registering Custom Post Types.
+ */
+require get_template_directory() . '/inc/post-types.php';
 
 /**
  * Load Jetpack compatibility file.

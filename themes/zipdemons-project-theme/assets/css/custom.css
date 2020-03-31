@@ -172,6 +172,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
       /* Needed to position the navbar */
       position: fixed;
   }
+
+  /* menu */
   .menu{
     align-content: space-between;
   }
@@ -249,6 +251,18 @@ body{
 	padding-bottom:20px !important;
 	margin-top:-60px !important;
 }
+.entry-footer, .search-field,.search-submit,.widget-area{
+	display: none;
+}
+footer{
+	background-color: white
+}
+.products{
+  list-style: none
+}
+  /* .menu{
+    background-color: white;
+  } */
     /* The navbar
     .topnav {
       overflow: hidden;
