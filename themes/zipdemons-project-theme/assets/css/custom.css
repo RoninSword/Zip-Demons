@@ -172,6 +172,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
       /* Needed to position the navbar */
       position: fixed;
   }
+
+  /* menu */
   .menu{
     align-content: space-between;
   }
