@@ -189,7 +189,7 @@ function project_theme_widgets_init() {
 add_action( 'widgets_init', 'project_theme_widgets_init' );
 
 
-
+//look for about 
 function is_tree( $pid ) {      // $pid = The ID of the page we're looking for pages underneath
     global $post;               // load details about this page
  
@@ -206,6 +206,15 @@ function is_tree( $pid ) {      // $pid = The ID of the page we're looking for p
     return false;  // we aren't at the page, and the page is not an ancestor
 }
 
+
+// You can use this code to check whether you’re on the nth page in a Post or Page that has been divided into pages using the <!--nextpage-->
+
+<?php
+  $paged = $wp_query->get( 'page' );
+  if ( ! $paged || $paged < 2 ) {
+    // This is not a paginated page (or it's simply the first page of a paginated page/post)    } else {
+    // This is a paginated page.
+} ?>
 
 /**
  * Enqueue scripts and styles.
