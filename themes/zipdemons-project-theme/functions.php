@@ -188,8 +188,7 @@ function project_theme_widgets_init() {
 }
 add_action( 'widgets_init', 'project_theme_widgets_init' );
 
-
-//look for about 
+//look for about page
 function is_tree( $pid ) {      // $pid = The ID of the page we're looking for pages underneath
     global $post;               // load details about this page
  
