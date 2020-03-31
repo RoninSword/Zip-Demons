@@ -189,17 +189,7 @@ function project_theme_widgets_init() {
 add_action( 'widgets_init', 'project_theme_widgets_init' );
 
 
-// condtional statements for custom post type archive
-function is_post_type_archive( $post_types = '' ) {
-		        global $wp_query;
-	
-		        if ( ! isset( $wp_query ) ) {
-		                _doing_it_wrong( __FUNCTION__, __( 'Conditional query tags do not work before the query is run. Before then, they always return false.' ), '3.1.0' );
-	                return false;
-		        }
-		
-				return $wp_query->is_post_type_archive( $post_types );
-				
+
 
 /**
  * Enqueue scripts and styles.
@@ -279,4 +269,3 @@ require get_template_directory() . '/inc/post-types.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-
